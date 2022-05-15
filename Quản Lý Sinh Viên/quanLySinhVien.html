@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="container">
+        
+    
+    <div class="mb-3 row py-5 px-5">
+
+      <label for="subjectA" class="form-label col-2">Subject 1 Score </label>
+      <input type="number"class="form-control col-xl-4 mt-6 col" name="" id="subjectA" aria-describedby="helpId" placeholder="">
+
+        <label for="subjectB" class="form-label col-xl-4">Subject 2 Score</label>
+      <input type="number"class="form-control col-xl-4 mt-6 col" name="" id="subjectB" aria-describedby="helpId" placeholder="">
+
+        <label for="subjectC" class="form-label col-xl-4">Subject 3 Score</label>
+      <input type="number"class="form-control col-xl-4 mt-6 col" name="" id="subjectC" aria-describedby="helpId" placeholder="">
+
+        <label for="admissionScore" class="form-label col-xl-4">Admission Score</label>
+      <input type="number"class="form-control col-xl-4 mt-6 col" name="" id="admissionScore" aria-describedby="helpId" placeholder="">
+
+        <select class="form-select mt-6 mb-6" id = "object" aria-label="Default select example">
+            <option selected>Click to choose your type of Object</option>
+            <option value="A">Object A</option>
+            <option value="B">Object B</option>
+            <option value="C">Object C</option>
+          </select>
+          <br>
+          <select class="form-select mt-6" aria-label="Default select example" id="area">
+            <option selected>Click to choose your type of Area</option>
+            <option value="A">Area A</option>
+            <option value="B">Area B </option>
+            <option value="C">Area C</option>
+          </select>
+          <br>
+          <button onclick="showResult()" type="button" class="btn btn-success">CLICK TO GET!!!</button>
+          <div id="showMess" style=" display: none " class="mt-6">
+              <p style="font-size:30px; color:blueviolet" id="showInfo"></p>
+          </div>
+ 
+    </div>
+</div>
+
+
+    
+    <script src="./quanLySinhvien.js">
+    </script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
+</html>
